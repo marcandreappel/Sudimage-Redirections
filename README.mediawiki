@@ -1,0 +1,10 @@
+=Sudimage Redirections=
+
+This is a module for the CMS '''Concrete5'''.
+Its purpose is to allow you to redirect automatically from a parent page to its first child page.
+
+==Usage==
+
+After installing the package, you will have a new page attribute available called ''Redirect this page to its first child page''.
+When enabled and checked, the package will redirect the visitor to the page beneath itself.
+

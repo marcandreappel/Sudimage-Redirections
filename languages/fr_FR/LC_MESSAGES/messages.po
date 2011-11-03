@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: redirections 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-16 17:07+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Marc-André Appel <marcandre.appel@gmail.com>\n"
+"Language-Team: Sudimage Communication <marc-andre.appel@sudimage.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+
+#: /home/marc-andre/Workspace/concrete5/web/packages/redirections/controller.php:1
+msgid "Access Denied."
+msgstr "Accès refusé."
+
+#: /home/marc-andre/Workspace/concrete5/web/packages/redirections/controller.php:10
+msgid ""
+"Create simple redirections from a page in the sitemap to its child page."
+msgstr "Créez une redirection simple d'une page vers sa première page enfant."
+
+#: /home/marc-andre/Workspace/concrete5/web/packages/redirections/controller.php:14
+msgid "Redirections"
+msgstr "Redirections"
+
+#: /home/marc-andre/Workspace/concrete5/web/packages/redirections/controller.php:28
+msgid "Redirect this page to its first child page"
+msgstr "Rediriger cette page vers sa première page enfant"
+
