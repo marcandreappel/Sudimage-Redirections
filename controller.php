@@ -4,7 +4,7 @@ class SudimageRedirectionsPackage extends Package {
 
 	protected $pkgHandle = 'sudimage_redirections';
 	protected $appVersionRequired = '5.4.2';
-	protected $pkgVersion = '1.0.0';
+	protected $pkgVersion = '1.1';
 	
 	public function getPackageDescription() {
 		return t('Create simple redirections from a page in the sitemap to its child page.');
