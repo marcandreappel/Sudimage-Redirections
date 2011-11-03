@@ -25,7 +25,7 @@ class RedirectHelper {
 					}
 					$r = $db->query("select cID from Pages where cParentID = ? order by cDisplayOrder asc", array($ca[$i]->cID));
 					$row = $r->fetchRow();
-					$ca[($i+1)] = Page::getByID($row['cID']);//$ca[$i]->getFirstChild();
+					$ca[($i+1)] = Page::getByID($row['cID']);
 					if ( is_object($ca[($i+1)]) && !$ca[($i+1)]->isError )
 					{
 						$tco = Collection::getByID($ca[($i+1)]->cID);
