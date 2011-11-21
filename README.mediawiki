@@ -1,15 +1,15 @@
 =Sudimage Redirections=
 
 This is a package for the CMS '''Concrete5'''.
-Its purpose is to allow you to redirect automatically from a parent page to its first child page.
+Its purpose is to allow you to redirect a page from the sitemap to another one (without aliasing).
 
 ==Usage==
 
-After installing the package, you will have a new page attribute available called ''Redirect this page to its first child page''.
-When enabled and checked, the package will redirect the visitor to the page beneath itself.
+After installing the package, you will have a new page attribute available called ''Redirect this page to another page''.
+Then choose a page from the sitemap and the package will redirect the visitor to the target page.
 
 ==Localisation==
 
 The package is delivered with a French language .po and .mo file.
-More languages are welcome.
+More languages are welcome. Fork it and add yours!
 
