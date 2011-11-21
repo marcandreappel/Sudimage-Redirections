@@ -35,10 +35,11 @@ class PageAttributeTypeController extends AttributeTypeController  {
 	public function form() {
 		$bf = false;
 		if ($this->getAttributeValueID() > 0) {
-			$bf = $this->getValue();
+			$gv = $this->getValue();
+            $bf = $gv->getCollectionID();
 		}
 		$al = Loader::helper('form/page_selector');
-		print $al->selectPage('internal_link', $bf->getCollectionID());
+		print $al->selectPage('internal_link', $bf);
 	}
 
 	// run when we call setAttribute(), instead of saving through the UI
