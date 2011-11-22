@@ -18,20 +18,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
 
-#: /home/marc-andre/Workspace/concrete5/web/packages/redirections/controller.php:1
 msgid "Access Denied."
 msgstr "Accès refusé."
 
-#: /home/marc-andre/Workspace/concrete5/web/packages/redirections/controller.php:10
 msgid ""
 "Create simple redirections from a page in the sitemap to another page."
 msgstr "Créez une redirection simple d'une page dans le plan du site vers une autre page."
 
-#: /home/marc-andre/Workspace/concrete5/web/packages/redirections/controller.php:14
 msgid "Redirections"
 msgstr "Redirections"
 
-#: /home/marc-andre/Workspace/concrete5/web/packages/redirections/controller.php:28
 msgid "Redirect this page to another page"
 msgstr "Rediriger cette page vers une autre page"
 
+msgid "Replace this link with the first child page"
+msgstr "Remplacer ce lien avec la première page enfant"

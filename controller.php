@@ -4,7 +4,7 @@ class SudimageRedirectionsPackage extends Package {
 
 	protected $pkgHandle = 'sudimage_redirections';
 	protected $appVersionRequired = '5.4.2';
-	protected $pkgVersion = '1.3.2';
+	protected $pkgVersion = '1.3.3';
 	
 	public function getPackageDescription() {
 		return t('Create simple redirections from a page in the sitemap to another page.');
@@ -40,6 +40,22 @@ class SudimageRedirectionsPackage extends Package {
 			'akIsEditable' => 1
 		);
 		$ak = CollectionAttributeKey::add($at, $args, $pkg);
+
+        $cak = CollectionAttributeKey::getByHandle('replace_link_with_first_in_nav');
+        if ($cak == null)
+        {
+            $type = AttributeType::getByHandle('boolean');
+            $args = array(
+                'akHandle' => 'replace_link_with_first_in_nav',
+                'akName' => t('Replace this link with the first child page'),
+                'akIsSearchable' => 0,
+                'akIsSearchableIndexed' => 0,
+                'akIsAutoCreated' => 0,
+                'akIsEditable' => 1
+            );
+            $ak = CollectionAttributeKey::add($type, $args, $pkg);
+        }
+
 	}
 	
 	public function uninstall() {
